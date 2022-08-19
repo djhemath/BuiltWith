@@ -18,3 +18,6 @@ A web component that helps developers to list the technologies they used to buil
  - Landing page (that uses this component)
  - Contribution guide
  - Issue Template
+
+ ## Credits
+ - Thanks to [IconScout's Unicons](https://iconscout.com/unicons). Default icon is grabbed from the Figma library.
