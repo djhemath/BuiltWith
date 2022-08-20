@@ -93,25 +93,7 @@
 <body>
     <div class="built-with-container">
         <div class="content-container">
-            <ul>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>Python</li>
+            <ul id="technologies-container">
             </ul>
         </div>
 
@@ -147,5 +129,34 @@
         builtWithContentContainer.style.maxHeight = height;
         builtWithContentContainer.style.padding = padding;
     }
+
+    const technologies = [
+        {
+            name: 'JavaScript',
+        },
+        {
+            name: 'HTML',
+        },
+        {
+            name: 'CSS 3',
+        },
+        {
+            name: 'TypeScript',
+        },
+    ];
+
+    function createTechnologyElement(technology) {
+        const { name } = technology;
+
+        const li = document.createElement('li');
+        li.textContent = name;
+
+        return li;
+    }
+
+    const technologiesContainer = document.getElementById("technologies-container");
+    technologies.forEach(technology => {
+        technologiesContainer.appendChild(createTechnologyElement(technology));
+    });
 </script>
 </html>
