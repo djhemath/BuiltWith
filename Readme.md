@@ -9,7 +9,6 @@ A web component that helps developers to list the technologies they used to buil
  - Option to expand to full page in small devices
  - Option to change position
  - Test cases
- - Documentation
  - Logo
  - Landing page (that uses this component)
  - Contribution guide
