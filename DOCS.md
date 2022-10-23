@@ -19,4 +19,4 @@ A web component that helps developers to list the technologies they used to buil
 ## API
 | Attributes   | Description | Type | Default value | Example(s) |
 |     --     | --  |  -- |       --      | -- |
-| technologies | List of technologies <br /> to be displayed | **String** <br /> **JSON String** <br /> **CSV String**     | null | "React" <br/><br/> '[{"name": "React"}, {"name": "Angular"}]' <br /><br/> "React,Angular, MongoDB" <br /><br/> '["React", "Mongo DB"]' |
+| technologies | List of technologies <br /> to be displayed | **String** <br /> **JSON String** <br /> **CSV String**     | null | "React" <br/><br/> '[{"name": "React"}, {"name": "Angular"}]' <br /><br/> "React,Angular, MongoDB" |
