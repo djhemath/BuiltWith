@@ -1,6 +1,8 @@
 # BuiltWith
 A web component that helps developers to list the technologies they used to build a web project. It can be used any web frameworks/stack. Highly configurable. Zero dependency. Easy to setup.
 
+[Docs](https://github.com/djhemath/BuiltWith/blob/main/DOCS.md) | [Releases](https://github.com/djhemath/BuiltWith/releases)
+
 ## TODO
  - Support for JSON array of strings
  - Technology presets with icons
