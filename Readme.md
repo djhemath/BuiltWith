@@ -14,5 +14,10 @@ A web component that helps developers to list the technologies they used to buil
  - Contribution guide
  - Issue Template
 
+## Releases
+Latest version - [v0.0.1](https://github.com/djhemath/BuiltWith/releases/tag/v0.0.1)
+
+Check all releases [here](https://github.com/djhemath/BuiltWith/releases)
+
  ## Credits
  - Thanks to [IconScout's Unicons](https://iconscout.com/unicons). Default icon is grabbed from the Figma library.
